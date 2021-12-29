@@ -7,10 +7,10 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            no_output_timeout: 20m
+            no_output_timeout: 3m
             command: |
               lscpu
-              echo "Subscrbe it "
+              echo"Subscribe it "
 workflows:
     version: 2.1
     build:
